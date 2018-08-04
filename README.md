@@ -27,6 +27,10 @@ A bare-bones, minimal approach to a reusable modal component.
 import Modal from "@dymantic/modal"
 
 export default {
+    components: {
+        Modal
+    },
+
     data() {
         return {showModal: false};
     }
