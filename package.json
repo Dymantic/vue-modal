@@ -1,7 +1,7 @@
 {
   "name": "@dymantic/modal",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/Modal.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
