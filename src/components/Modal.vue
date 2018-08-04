@@ -54,6 +54,7 @@ export default {
 .dd-modal-body {
   display: inline-block;
   max-width: 90vw;
+  text-align: left;
   margin: 0px auto;
   background-color: #fff;
   border-radius: 2px;
@@ -67,8 +68,8 @@ export default {
 .modal-leave {
   opacity: 0;
 }
-.modal-enter .modal-container,
-.modal-leave .modal-container {
+.modal-enter .dd-modal-body,
+.modal-leave .dd-modal-body {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -78,8 +79,8 @@ export default {
 .modal-leave-active {
   opacity: 0;
 }
-.modal-enter .modal-container,
-.modal-leave-active .modal-container {
+.modal-enter .dd-modal-body,
+.modal-leave-active .dd-modal-body {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
