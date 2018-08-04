@@ -1,26 +1,5 @@
-# modal
+# A minimalist Vuejs modal component
 
-## Project setup
-```
-npm install
-```
+[![Build Status](https://travis-ci.org/Dymantic/vue-modal.svg?branch=master)](https://travis-ci.org/Dymantic/vue-modal)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
+A bare-bones, minimal approach to a reusable modal component.
