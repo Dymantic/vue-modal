@@ -3,10 +3,10 @@
     <div class="dd-modal-mask" v-show="show">
       <div class="dd-modal-wrapper">
         <div class="dd-modal-body">
-          <slot></slot>  
+          <slot></slot>
         </div>
       </div>
-    </div>    
+    </div>
   </transition>
 </template>
 
@@ -15,8 +15,8 @@ export default {
   props: {
     show: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
 
   created() {
@@ -28,8 +28,8 @@ export default {
       if (ev.keyCode === 27) {
         this.$emit("close");
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -53,7 +53,7 @@ export default {
 
 .dd-modal-body {
   display: inline-block;
-  max-width: 90vw;
+  max-width: 98vw;
   text-align: left;
   margin: 0px auto;
   background-color: #fff;
